@@ -1,0 +1,393 @@
+{
+  "Languages": {
+    "Java": [
+      "java",
+      "core java"
+    ],
+    "Python": [
+      "python",
+      "python3"
+    ],
+    "JavaScript": [
+      "javascript",
+      "js",
+      "es6"
+    ],
+    "TypeScript": [
+      "typescript"
+    ],
+    "C++": [
+      "c++",
+      "cpp"
+    ],
+    "C#": [
+      "c#",
+      "csharp"
+    ],
+    "C": [
+      "c programming",
+      "c language"
+    ],
+    "Go": [
+      "golang"
+    ],
+    "Kotlin": [
+      "kotlin"
+    ],
+    "SQL": [
+      "sql"
+    ],
+    "PL/SQL": [
+      "pl/sql",
+      "plsql"
+    ],
+    "HTML": [
+      "html",
+      "html5"
+    ],
+    "CSS": [
+      "css",
+      "css3"
+    ],
+    "PHP": [
+      "php"
+    ],
+    "R": [
+      "r programming"
+    ],
+    "Bash": [
+      "bash",
+      "shell scripting",
+      "shell script"
+    ]
+  },
+  "Backend & APIs": {
+    "Spring Boot": [
+      "spring boot",
+      "springboot"
+    ],
+    "Spring": [
+      "spring framework",
+      "spring mvc"
+    ],
+    "Spring Security": [
+      "spring security"
+    ],
+    "Hibernate": [
+      "hibernate"
+    ],
+    "JPA": [
+      "jpa",
+      "spring data jpa"
+    ],
+    "JDBC": [
+      "jdbc"
+    ],
+    "Flask": [
+      "flask"
+    ],
+    "Django": [
+      "django"
+    ],
+    "FastAPI": [
+      "fastapi"
+    ],
+    "Node.js": [
+      "node.js",
+      "nodejs"
+    ],
+    "Express": [
+      "express.js",
+      "expressjs"
+    ],
+    ".NET": [
+      ".net",
+      "dotnet",
+      "asp.net"
+    ],
+    "REST APIs": [
+      "rest api",
+      "rest apis",
+      "restful",
+      "rest services"
+    ],
+    "GraphQL": [
+      "graphql"
+    ],
+    "Microservices": [
+      "microservices",
+      "microservice"
+    ],
+    "JWT": [
+      "jwt",
+      "json web token"
+    ],
+    "OAuth": [
+      "oauth",
+      "oauth2"
+    ]
+  },
+  "Frontend": {
+    "React": [
+      "react",
+      "react.js",
+      "reactjs"
+    ],
+    "Angular": [
+      "angular",
+      "angularjs"
+    ],
+    "Vue": [
+      "vue",
+      "vue.js",
+      "vuejs"
+    ],
+    "Next.js": [
+      "next.js",
+      "nextjs"
+    ],
+    "Bootstrap": [
+      "bootstrap"
+    ],
+    "Tailwind CSS": [
+      "tailwind",
+      "tailwind css"
+    ],
+    "jQuery": [
+      "jquery"
+    ],
+    "Redux": [
+      "redux"
+    ]
+  },
+  "Databases": {
+    "MySQL": [
+      "mysql"
+    ],
+    "PostgreSQL": [
+      "postgresql",
+      "postgres"
+    ],
+    "Oracle": [
+      "oracle"
+    ],
+    "SQL Server": [
+      "sql server",
+      "mssql"
+    ],
+    "SQLite": [
+      "sqlite"
+    ],
+    "MongoDB": [
+      "mongodb",
+      "mongo"
+    ],
+    "Redis": [
+      "redis"
+    ],
+    "Cassandra": [
+      "cassandra"
+    ],
+    "Database Design": [
+      "database design",
+      "data modelling",
+      "data modeling",
+      "normalization",
+      "normalisation"
+    ],
+    "Stored Procedures": [
+      "stored procedure",
+      "stored procedures"
+    ],
+    "NoSQL": [
+      "nosql"
+    ]
+  },
+  "Cloud & DevOps": {
+    "AWS": [
+      "aws",
+      "amazon web services"
+    ],
+    "Azure": [
+      "azure"
+    ],
+    "GCP": [
+      "gcp",
+      "google cloud"
+    ],
+    "Docker": [
+      "docker"
+    ],
+    "Kubernetes": [
+      "kubernetes",
+      "k8s"
+    ],
+    "CI/CD": [
+      "ci/cd",
+      "continuous integration",
+      "continuous delivery",
+      "ci cd"
+    ],
+    "Jenkins": [
+      "jenkins"
+    ],
+    "GitHub Actions": [
+      "github actions"
+    ],
+    "Linux": [
+      "linux",
+      "unix"
+    ],
+    "Terraform": [
+      "terraform"
+    ],
+    "Kafka": [
+      "kafka"
+    ],
+    "RabbitMQ": [
+      "rabbitmq"
+    ]
+  },
+  "Testing & QA": {
+    "Unit Testing": [
+      "unit testing",
+      "unit tests",
+      "unit test"
+    ],
+    "JUnit": [
+      "junit"
+    ],
+    "Mockito": [
+      "mockito"
+    ],
+    "pytest": [
+      "pytest"
+    ],
+    "Selenium": [
+      "selenium"
+    ],
+    "Playwright": [
+      "playwright"
+    ],
+    "Cypress": [
+      "cypress"
+    ],
+    "Postman": [
+      "postman"
+    ],
+    "Manual Testing": [
+      "manual testing"
+    ],
+    "Automation Testing": [
+      "automation testing",
+      "test automation"
+    ],
+    "API Testing": [
+      "api testing"
+    ],
+    "Jira": [
+      "jira"
+    ]
+  },
+  "Data & AI": {
+    "Machine Learning": [
+      "machine learning",
+      "ml"
+    ],
+    "Deep Learning": [
+      "deep learning"
+    ],
+    "NLP": [
+      "nlp",
+      "natural language processing"
+    ],
+    "Computer Vision": [
+      "computer vision",
+      "opencv"
+    ],
+    "TensorFlow": [
+      "tensorflow"
+    ],
+    "PyTorch": [
+      "pytorch"
+    ],
+    "scikit-learn": [
+      "scikit-learn",
+      "sklearn"
+    ],
+    "Pandas": [
+      "pandas"
+    ],
+    "NumPy": [
+      "numpy"
+    ],
+    "Power BI": [
+      "power bi",
+      "powerbi"
+    ],
+    "Tableau": [
+      "tableau"
+    ],
+    "Excel": [
+      "ms excel",
+      "microsoft excel",
+      "advanced excel"
+    ],
+    "Data Analysis": [
+      "data analysis",
+      "data analytics"
+    ],
+    "Generative AI": [
+      "generative ai",
+      "genai",
+      "llm",
+      "llms",
+      "large language models"
+    ],
+    "LangChain": [
+      "langchain"
+    ],
+    "Statistics": [
+      "statistics",
+      "statistical"
+    ]
+  },
+  "Tools & Practices": {
+    "Git": [
+      "git"
+    ],
+    "GitHub": [
+      "github"
+    ],
+    "Maven": [
+      "maven"
+    ],
+    "Gradle": [
+      "gradle"
+    ],
+    "Agile": [
+      "agile",
+      "scrum"
+    ],
+    "OOP": [
+      "oop",
+      "object-oriented programming",
+      "object oriented programming",
+      "object-oriented"
+    ],
+    "Data Structures & Algorithms": [
+      "data structures",
+      "algorithms",
+      "dsa"
+    ],
+    "System Design": [
+      "system design"
+    ],
+    "Debugging": [
+      "debugging"
+    ],
+    "Design Patterns": [
+      "design patterns"
+    ]
+  }
+}

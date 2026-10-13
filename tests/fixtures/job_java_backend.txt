@@ -1,0 +1,5 @@
+Junior Java Backend Developer (Fresher)
+We are hiring a junior backend developer to build REST APIs with Java and Spring Boot.
+You will design MySQL schemas, write unit tests with JUnit and Mockito, and deploy services with Docker on AWS.
+Requirements: strong Java and OOP fundamentals, data structures and algorithms, SQL, Git.
+Nice to have: Kafka, microservices, CI/CD with Jenkins. You will join code reviews and work in an Agile team.

@@ -1,0 +1,6 @@
+__pycache__/
+.venv/
+node_modules/
+test-results/
+playwright-report/
+.pytest_cache/

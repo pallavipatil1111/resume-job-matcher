@@ -1,0 +1,6 @@
+{
+  "name": "resume-job-matcher-e2e",
+  "private": true,
+  "scripts": { "test:e2e": "playwright test" },
+  "devDependencies": { "@playwright/test": "1.56.0", "@types/node": "22.10.2" }
+}

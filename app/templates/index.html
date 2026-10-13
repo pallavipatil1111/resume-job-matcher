@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Resume–Job Matcher</title>
+  <meta name="description" content="Score how well your resume matches a job description and see which skills and keywords are missing.">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <header class="top">
+    <h1>Resume–Job Matcher</h1>
+    <p>Upload your resume and paste a job description. You'll get a match score, the skills the job asks for that your resume doesn't show, and what to fix first.</p>
+  </header>
+
+  <main>
+    <form id="match-form" class="inputs" novalidate>
+      <section class="panel" aria-labelledby="resume-h">
+        <h2 id="resume-h">Your resume</h2>
+        <div class="tabs" role="tablist" aria-label="Resume input">
+          <button type="button" role="tab" id="tab-upload" aria-selected="true" aria-controls="pane-upload">Upload PDF</button>
+          <button type="button" role="tab" id="tab-paste" aria-selected="false" aria-controls="pane-paste">Paste text</button>
+        </div>
+        <div id="pane-upload" role="tabpanel" aria-labelledby="tab-upload">
+          <label class="drop" for="resume-file">
+            <input type="file" id="resume-file" name="resume_file" accept="application/pdf,.pdf">
+            <span class="drop-title" id="file-label">Choose a PDF</span>
+            <span class="drop-hint">Text-based PDF, up to 2 MB</span>
+          </label>
+        </div>
+        <div id="pane-paste" role="tabpanel" aria-labelledby="tab-paste" hidden>
+          <label class="sr-only" for="resume-text">Resume text</label>
+          <textarea id="resume-text" name="resume_text" rows="12" placeholder="Paste your resume text here"></textarea>
+        </div>
+      </section>
+
+      <section class="panel" aria-labelledby="job-h">
+        <h2 id="job-h">Job description</h2>
+        <label class="sr-only" for="job-text">Job description</label>
+        <textarea id="job-text" name="job_description" rows="14" placeholder="Paste the full job description, including requirements"></textarea>
+      </section>
+
+      <div class="actions">
+        <button type="submit" id="score-btn">Score my resume</button>
+        <p class="error" id="form-error" role="alert"></p>
+      </div>
+    </form>
+
+    <section id="results" class="results" aria-live="polite" hidden>
+      <div class="score-card">
+        <div class="ring" id="ring" role="img" aria-label="Match score">
+          <svg viewBox="0 0 120 120" aria-hidden="true">
+            <circle class="ring-track" cx="60" cy="60" r="52"></circle>
+            <circle class="ring-value" id="ring-value" cx="60" cy="60" r="52"></circle>
+          </svg>
+          <span class="ring-number" id="score">0</span>
+        </div>
+        <div>
+          <p class="verdict" id="verdict"></p>
+          <dl class="breakdown">
+            <div><dt>Skills covered</dt><dd id="coverage">–</dd></div>
+            <div><dt>Wording overlap</dt><dd id="similarity">–</dd></div>
+          </dl>
+          <p class="how">60% of the score is skill coverage, 40% is how closely your wording matches the job post.</p>
+        </div>
+      </div>
+
+      <div class="grid">
+        <section class="panel">
+          <h2>Skills the job asks for that your resume is missing</h2>
+          <ul class="chips missing" id="missing-skills"></ul>
+          <p class="none" id="missing-none" hidden>None. Your resume covers every skill this job names.</p>
+        </section>
+        <section class="panel">
+          <h2>Skills you match</h2>
+          <ul class="chips matched" id="matched-skills"></ul>
+          <p class="none" id="matched-none" hidden>No overlap found yet.</p>
+        </section>
+        <section class="panel">
+          <h2>Job terms your resume never mentions</h2>
+          <ul class="chips terms" id="missing-keywords"></ul>
+        </section>
+        <section class="panel">
+          <h2>What to fix first</h2>
+          <ol class="tips" id="suggestions"></ol>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">Your resume is processed in memory and never stored. Built with Flask and scikit-learn.</footer>
+  <script src="{{ url_for('static', filename='app.js') }}" defer></script>
+</body>
+</html>
